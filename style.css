@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+section{
+    position:relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 150px 200px;
+
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /*background-color:#B72A3A ;*/
+    background: linear-gradient(to left,#AF050D, #CA281E);
+    
+    
+    
+}
+
+header{
+    position:absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    padding: 30px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color: transparent;
+
+}
+
+header a{
+    width: 120px;
+    height: 29.06px;
+}
+
+header .logo{
+    position: relative;
+    max-width:120px ;
+    
+}
+
+header ul{
+    position: relative;
+    display:flex;
+
+}
+
+header ul li {
+    list-style: none;
+}
+
+header ul li a{
+    display: inline-block;
+    color: #fff;
+    font-weight: 400;
+    margin-left: 20px;
+    text-decoration: none;
+
+}
+
+.content{
+    position: relative;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+    
+}
+
+.content .textBox{
+    position: relative;
+    max-width: 700px;
+    
+    
+}
+
+.content .textBox h2{
+    color: #fff;
+    font-size: 4em;
+    line-height: 1.4em;
+    font-weight: 500;
+
+}
+
+.content .textBox h2 span {
+    color:#190aa5;
+    font-size: 1.2em;
+    font-weight: 900;
+
+}
+
+.content .textBox p{
+    color:#fff;
+}
+
+.content .textBox a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: #190aa5;
+    color: #fff;
+    border-radius: 40px;
+    font-weight: 500;
+    Letter-spacing: 1px;
+    text-decoration: none;
+
+}
+
+.content .imgBox{
+    width: 900px;
+    display:flex;
+    justify-content: flex-end;
+    
+}
+
+.content .imgBox img{
+    max-width: 600px;
+    
+}
+
+.spider{
+    position:absolute;
+    /*left: 50%;*/
+    bottom:20px;
+    /*transform: translateX(-50%);*/
+    display: flex;
+}
+
+.spider li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.spider li:hover{
+    transform: translateY(-15px);
+    
+}
+
+.spider li img{
+    max-width: 70px;
+ 
+}
+
+
+
+
