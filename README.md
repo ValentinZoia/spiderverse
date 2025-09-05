@@ -1,2 +1,5 @@
+<div align='center'>
+  
 # spiderverse
-Small interactive landing page about the three Spiderman.
+</div>
+Small interactive header about the three Spiderman.
