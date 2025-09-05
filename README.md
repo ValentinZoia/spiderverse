@@ -1,6 +1,6 @@
 <div align='center'>
   
-# spiderverse
+# 🕷🕸🌌 SPIDERVERSE
 </div>
 Small interactive header about the three Spiderman.
 <img src='./images/spiderman-tm-page.png' />
