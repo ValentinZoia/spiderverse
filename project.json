@@ -1,0 +1,12 @@
+{
+  "title": "🕷 SPIDERVERSE",
+  "description": "Small interactive hero header about the three Spiderman.",
+  "preview": "images/spiderman-tm-page.png",
+  "screenshots": [
+    "images/spiderman-tm-page.png",
+    "images/spiderman-ag-page.png",
+    "images/spiderman-th-page.png",
+  ],
+  "tags": ["html", "css", "javascript"],
+  "published": true
+} 
